@@ -20,7 +20,7 @@ The following table introduces the main concepts, although terms and ages may va
     +-----+ Early childhood education |   Preschool    |   Preschool    |   0   |
     |  5  |                           |                |                |       |
     +-----+---------------------------+----------------+----------------+-------+
-    |  6  |		                      |                |                |       |
+    |  6  |	                          |                |                |       |
     +-----+                           |                |                |       |
     |  7  |                           |                |                |   1   |
     +-----+                           |                |                |       |
