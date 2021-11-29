@@ -50,3 +50,42 @@ The following table introduces the main concepts, although terms and ages may va
     +-----+---------------------------+----------------+----------------+-------+
 
 The International Standard Classification of Education (ISCED) is a statistical framework for organizing information on education maintained by the United Nations Educational, Scientific and Cultural Organization (UNESCO).
+
+Examples:
+
+```python
+>>> from majormode.education import EducationLevel
+>>> education_levels = EducationLevel.get_country_education_levels("FR")
+>>> for education_level in education_levels:
+>>> for education_level in education_levels:
+...     print(education_level.grade_name)
+...
+Toute petite section
+Petite section
+Moyenne section
+Grande section
+Cours préparatoire
+Cours élémentaire, 1ère année
+Cours élémentaire, 2ème année
+Cours moyen, 1ère année
+Cours moyen, 2ème année
+Sixième
+Cinquième
+Quatrième
+Troisième
+Seconde
+Première
+Terminale
+
+>>> education_level = EducationLevel.find_by_grade_level('FR', 8)
+>>> print(education_level.grade_name)
+Cours moyen, 1ère année
+
+>>> education_level = EducationLevel.find_by_grade_name('FR', 'Terminale')
+>>> print(education_level.grade_level)
+16
+
+>> education_level = EducationLevel.find_by_grade_short_name('FR', 'CE1')
+>>> print(education_level.grade_level)
+6
+```
