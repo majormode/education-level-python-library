@@ -1,0 +1,93 @@
+[
+  {
+    "grade_level": 1,
+    "grade_name": "Mầm non",
+    "grade_short_name": "",
+    "start_age": 3,
+    "end_age": 6
+  },
+  {
+    "grade_level": 2,
+    "grade_name": "Lớp 1",
+    "grade_short_name": "",
+    "start_age": 6,
+    "end_age": 7
+  },
+  {
+    "grade_level": 3,
+    "grade_name": "Lớp 2",
+    "grade_short_name": "",
+    "start_age": 7,
+    "end_age": 8
+  },
+  {
+    "grade_level": 4,
+    "grade_name": "Lớp 3",
+    "grade_short_name": "",
+    "start_age": 8,
+    "end_age": 9
+  },
+  {
+    "grade_level": 5,
+    "grade_name": "Lớp 4",
+    "grade_short_name": "",
+    "start_age": 9,
+    "end_age": 10
+  },
+  {
+    "grade_level": 6,
+    "grade_name": "Lớp 5",
+    "grade_short_name": "",
+    "start_age": 10,
+    "end_age": 11
+  },
+  {
+    "grade_level": 7,
+    "grade_name": "Lớp 6",
+    "grade_short_name": "",
+    "start_age": 11,
+    "end_age": 12
+  },
+  {
+    "grade_level": 8,
+    "grade_name": "Lớp 7",
+    "grade_short_name": "",
+    "start_age": 12,
+    "end_age": 13
+  },
+  {
+    "grade_level": 9,
+    "grade_name": "Lớp 8",
+    "grade_short_name": "",
+    "start_age": 13,
+    "end_age": 14
+  },
+  {
+    "grade_level": 10,
+    "grade_name": "Lớp 9",
+    "grade_short_name": "",
+    "start_age": 14,
+    "end_age": 15
+  },
+  {
+    "grade_level": 11,
+    "grade_name": "Lớp 10",
+    "grade_short_name": "",
+    "start_age": 15,
+    "end_age": 16
+  },
+  {
+    "grade_level": 12,
+    "grade_name": "Lớp 11",
+    "grade_short_name": "",
+    "start_age": 16,
+    "end_age": 17
+  },
+  {
+    "grade_level": 13,
+    "grade_name": "Lớp 12",
+    "grade_short_name": "",
+    "start_age": 17,
+    "end_age": 18
+  }
+]

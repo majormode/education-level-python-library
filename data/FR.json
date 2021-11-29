@@ -1,0 +1,114 @@
+[
+  {
+    "grade_level": 1,
+    "grade_name": "Toute petite section",
+    "grade_short_name": "TPS",
+    "start_age": 2,
+    "end_age": 3
+  },
+  {
+    "grade_level": 2,
+    "grade_name": "Petite section",
+    "grade_short_name": "PS",
+    "start_age": 3,
+    "end_age": 4
+  },
+  {
+    "grade_level": 3,
+    "grade_name": "Moyenne section",
+    "grade_short_name": "MS",
+    "start_age": 4,
+    "end_age": 5
+  },
+  {
+    "grade_level": 4,
+    "grade_name": "Grande section",
+    "grade_short_name": "GS",
+    "start_age": 5,
+    "end_age": 6
+  },
+  {
+    "grade_level": 5,
+    "grade_name": "Cours préparatoire",
+    "grade_short_name": "CP",
+    "start_age": 6,
+    "end_age": 7
+  },
+  {
+    "grade_level": 6,
+    "grade_name": "Cours élémentaire, 1ère année",
+    "grade_short_name": "CE1",
+    "start_age": 7,
+    "end_age": 8
+  },
+  {
+    "grade_level": 7,
+    "grade_name": "Cours élémentaire, 2ème année",
+    "grade_short_name": "CE2",
+    "start_age": 8,
+    "end_age": 9
+  },
+  {
+    "grade_level": 8,
+    "grade_name": "Cours moyen, 1ère année",
+    "grade_short_name": "CM1",
+    "start_age": 9,
+    "end_age": 10
+  },
+  {
+    "grade_level": 9,
+    "grade_name": "Cours moyen, 2ème année",
+    "grade_short_name": "CM2",
+    "start_age": 10,
+    "end_age": 11
+  },
+  {
+    "grade_level": 10,
+    "grade_name": "Sixième",
+    "grade_short_name": "6ème",
+    "start_age": 11,
+    "end_age": 12
+  },
+  {
+    "grade_level": 11,
+    "grade_name": "Cinquième",
+    "grade_short_name": "5ème",
+    "start_age": 12,
+    "end_age": 13
+  },
+  {
+    "grade_level": 12,
+    "grade_name": "Quatrième",
+    "grade_short_name": "4ème",
+    "start_age": 13,
+    "end_age": 14
+  },
+  {
+    "grade_level": 13,
+    "grade_name": "Troisième",
+    "grade_short_name": "3ème",
+    "start_age": 14,
+    "end_age": 15
+  },
+  {
+    "grade_level": 14,
+    "grade_name": "Seconde",
+    "grade_short_name": "2nde",
+    "start_age": 15,
+    "end_age": 16
+  },
+  {
+    "grade_level": 15,
+    "grade_name": "Première",
+    "grade_short_name": "1ère",
+    "start_age": 16,
+    "end_age": 17
+  },
+  {
+    "grade_level": 16,
+    "grade_name": "Terminale",
+    "grade_short_name": "Tle",
+    "start_age": 17,
+    "end_age": 18
+  }
+]
