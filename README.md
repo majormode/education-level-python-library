@@ -85,7 +85,7 @@ Cours moyen, 1ère année
 >>> print(education_level.grade_level)
 16
 
->> education_level = EducationLevel.find_by_grade_short_name('FR', 'CE1')
+>>> education_level = EducationLevel.find_by_grade_short_name('FR', 'CE1')
 >>> print(education_level.grade_level)
 6
 ```
