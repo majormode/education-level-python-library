@@ -212,8 +212,6 @@ class EducationLevel:
         country_file_path_name = os.path.join(os.path.abspath(
                 os.path.dirname(__file__)), '..', 'data', f'{country_code}.json')
 
-        print(country_file_path_name)
-
         try:
             with open(country_file_path_name) as fd:
                 data = json.loads(fd.read())
