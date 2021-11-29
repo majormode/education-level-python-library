@@ -50,4 +50,3 @@ The following table introduces the main concepts, although terms and ages may va
     +-----+---------------------------+----------------+----------------+-------+
 
 The International Standard Classification of Education (ISCED) is a statistical framework for organizing information on education maintained by the United Nations Educational, Scientific and Cultural Organization (UNESCO).
-
