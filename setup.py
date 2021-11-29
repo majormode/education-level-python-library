@@ -72,9 +72,9 @@ setuptools.setup(
     package_data={'.': ['data/*.json']},
     platforms=['any'],
     project_urls={
-        'Bug Tracker': 'https://github.com/dcaune/education-level-python-library/issues',
-        'Documentation': 'https://github.com/dcaune/education-level-python-library',
-        'Source Code': 'https://github.com/dcaune/education-level-python-library',
+        'Bug Tracker': 'https://github.com/majormode/education-level-python-library/issues',
+        'Documentation': 'https://github.com/majormode/education-level-python-library',
+        'Source Code': 'https://github.com/majormode/education-level-python-library',
     },
     python_requires='>=3',
     version=__version__
