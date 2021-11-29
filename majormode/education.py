@@ -111,7 +111,7 @@ class EducationLevel:
     """
     __COUNTRIES_EDUCATION_LEVELS = {}
 
-    __JSON_FIELD_END_AGE = 'eng_age'
+    __JSON_FIELD_END_AGE = 'end_age'
     __JSON_FIELD_GRADE_LEVEL = 'grade_level'
     __JSON_FIELD_GRADE_NAME = 'grade_name'
     __JSON_FIELD_GRADE_SHORT_NAME = 'grade_short_name'
@@ -210,7 +210,9 @@ class EducationLevel:
         :return: A list of {@link EducationLevel} instances in whatever order.
         """
         country_file_path_name = os.path.join(os.path.abspath(
-                os.path.dirname(__file__)), 'data', f'{country_code}.json')
+                os.path.dirname(__file__)), '..', 'data', f'{country_code}.json')
+
+        print(country_file_path_name)
 
         try:
             with open(country_file_path_name) as fd:
@@ -223,7 +225,7 @@ class EducationLevel:
                     item[cls.__JSON_FIELD_GRADE_NAME],
                     item[cls.__JSON_FIELD_START_AGE],
                     item[cls.__JSON_FIELD_END_AGE],
-                    grade_short_name=item[cls.__JSON_FIELD_GRADE_SHORT_NAME] | None,
+                    grade_short_name=item[cls.__JSON_FIELD_GRADE_SHORT_NAME] or None,
                 )
                 for item in data
             ]
